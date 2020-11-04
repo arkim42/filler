@@ -47,7 +47,6 @@ int				main(void)
 	line = NULL;
 	fd = 0;
 	init_player(fd, line, &f);
-	printf("zone1\n");
 	while (1)
 		main_loop(&f, fd, line);
 	return (0);
